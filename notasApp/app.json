@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "tareasApp",
+    "slug": "tareasApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icono.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ADD8E6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icono.png",
+        "backgroundColor": "#ADD8E6"
+      },
+      "package": "com.carlosnoguera.tareasApp"
+    },
+    "web": {
+      "favicon": "./assets/icono.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "01e0025b-2f28-4fc3-a71a-903c0d676781"
+      }
+    }
+  }
+}
